@@ -1,8 +1,8 @@
-﻿namespace Contents.Persistence
+﻿namespace Contents.Identity.Data
 {
     public class DbInitializer
     {
-        public static void Initialize(ContentsDbContext context)
+        public static void Initialize(AuthDbContext context)
         {
             context.Database.EnsureCreated();
         }
